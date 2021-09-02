@@ -1,0 +1,116 @@
+*{
+    background: black;
+    color: white;
+}
+
+.profile-image{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.main-content{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-media-icons{
+    margin: 30px 0px;
+}
+.social-media-icons .instagram{
+    padding: 0px 20px;
+}
+.about-me{
+    display: flex;
+    gap: 10%;
+    justify-content: space-between;
+    width: 100%;
+}
+.title,
+.sub-content{
+    width: 40%;
+    height: 100%;
+}
+.chat{
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+.main-text{
+text-align: center;
+}
+.margin{
+    margin: 8%;
+}
+.one{
+    font-size: 50px;
+    font-weight: 900;
+}
+.arrow{
+    height: 200px;
+}
+.photo-essay{
+    width: 100%;
+    height: 50vh;
+    display: inline-flex;
+    gap: 4%;
+}
+.building{
+    width: 32%;
+    border-radius: 10%;
+}
+.flowers{
+    width: 32%;
+    border-radius: 10%;
+}
+.pixels{
+    width: 32%;
+    border-radius: 10%;
+}
+.second-photo-essay{
+    width: 100%;
+    height: 50vh;
+    display: inline-flex;
+    gap: 4%;
+    margin: 25px 0px;
+}
+.woman{
+    width: 32%;
+    border-radius: 10%;
+}
+.wallpaper{
+    width: 32%;
+    border-radius: 10%;
+}
+.spiral{
+    width: 32%;
+    border-radius: 10%;
+}
+.message :hover{
+    background-color: indianred;
+    padding: 8px 30px;
+    border-collapse: collapse;
+
+}
+.message .button-section{
+    border-style: solid;
+    padding: 8px 30px;
+}
+.more-info{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10%;
+}
+.firstpart,
+.second-part{
+    height: 100%;
+}
+.signature{
+    width: 100%;
+    height: 50px;
+}

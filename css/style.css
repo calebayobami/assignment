@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#auth-layout{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;    
+}
+.image-section{
+    box-sizing: border-box;
+    background: url(../images/file.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    width: 40%;
+    height: 100vh;
+    margin: 0px;
+}
+
+.form-section{
+    width: 60%;
+    height: 100vh;
+    padding: 40px;
+}
+.logo{
+    display: flex;
+    justify-content: flex-end;
+}
+
+h1{
+    padding: 20px 4px;
+    margin: 30px;
+}
+
+.form-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+.form-row .input-box{
+    width: 48%;
+}
+.form-row .input-box input[ type = text],
+.form-row .input-box select{
+    width: 100%;
+    height: 40px;
+    padding: 10px 5px;
+}
+.form-row .textarea-section {
+    width: 100%;
+}
+
+.form-row .textarea-section textarea{
+    width: 100%;
+    height: 40px;
+}
+
+.button-section button{
+    background: blue;
+    padding: 8px 30px;
+    border: none;
+    color: white;
+    
+}
+.button-section{
+    display: flex;
+    justify-content: flex-end;
+}

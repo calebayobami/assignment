@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-color: palegoldenrod;
+}
+
+body {
+    font-family: system-ui;
+    background: black;
+    color: white;
+    text-align: center;
+  }
+img{
+    width: 300px;
+    border-radius: 300px;
+    float: left;
+    object-fit: cover;
+}
+p{
+    float: center;
+    text-align: initial;
+
+}
